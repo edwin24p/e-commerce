@@ -15,4 +15,29 @@ bg:"fcf1ed"},
 title: "POPULAR SALE",
 desc:"DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
 bg:"f5fafd"}
+];
+
+export const categories=[
+    {id:1,
+    img:"https://images.pexels.com/photos/13094233/pexels-photo-13094233.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+title:"SHIRT STYLE!"},
+{id:2,
+    img:"https://img.freepik.com/free-photo/man-wearing-beige-pajamas-sleepwear_53876-125267.jpg?w=1380&t=st=1687918561~exp=1687919161~hmac=fedd2e2185c3cfc7846299d2e7b3363c0bbe63918379a03fed9e06b2faf3c837",
+title:"LOUNGEWEAR LOVE"},
+{id:3,
+    img:"https://img.freepik.com/free-photo/bff-printed-red-hoodie_53876-105408.jpg?w=1380&t=st=1687918620~exp=1687919220~hmac=19553a7f71bc0641644cf0730a5c147a8b0b03b243d839044dc80c8b9b10c6aa",
+title:"LIGHT JACKETS"},
+
+]
+
+export const popularProducts=[
+    {id:1,
+    img:"https://images.pexels.com/photos/9969430/pexels-photo-9969430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},
+    {id:2,
+    img:"https://images.pexels.com/photos/4428388/pexels-photo-4428388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},
+    {id:3,
+    img:"https://images.pexels.com/photos/14706201/pexels-photo-14706201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},
+    {id:3,
+        img:"https://images.pexels.com/photos/1822845/pexels-photo-1822845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"},
+
 ]
