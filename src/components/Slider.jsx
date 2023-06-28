@@ -49,7 +49,9 @@ const ImgContainer = styled.div`
   flex: 1;
 `;
 const Image = styled.img`
-  height: 80%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 `;
 const InfoContainer = styled.div`
   flex: 1;
