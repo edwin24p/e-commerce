@@ -18,7 +18,6 @@ const Title = styled.h1`
 const Products = () => {
   return (
     <div>
-      <Title>Featured Products</Title>
       <Container>
         {popularProducts.map((item) => (
           <Product item={item} key={item.id} />
