@@ -2,14 +2,17 @@ import styled from "@emotion/styled";
 import { Search, ShoppingCartOutlined } from "@mui/icons-material";
 import { Badge } from "@mui/material";
 import React from "react";
+import { mobile } from "../responsive";
 const Container = styled.div`
   height: 60px;
+  ${mobile({ height: "50px" })}
 `;
 const Wrapper = styled.div`
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  ${mobile({ padding: "10px 0px" })};
 `;
 const Left = styled.div`
   flex: 1;
@@ -20,6 +23,7 @@ const Left = styled.div`
 const Language = styled.div`
   font-size: 14px;
   cursor: pointer;
+  ${mobile({ display: "none" })};
 `;
 
 const SearchContainer = styled.div`
@@ -59,7 +63,7 @@ export default function Navbar() {
         <Left>
           <Language>EN</Language>
           <SearchContainer>
-            <Input />
+            <Input placeholder="Search" />
             <Search style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
         </Left>
